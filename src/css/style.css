@@ -1,0 +1,75 @@
+
+.center-area{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    width: 90vw;
+    max-width: 700px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+    min-height: 65vh;
+}
+.center-area>div:last-child{
+    height: 100%;
+    width: 100%;
+}
+.center-area>div:last-child img{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+.center-area .left-area{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.center-area .left-area .already{
+    display: flex;
+    gap: 4px;
+}
+.center-area .left-area .already a{
+    color: #3183f5;
+}
+.center-area .left-area h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 7px;
+}
+.center-area .left-area .field-area{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 8px;
+}
+.center-area .left-area .field-area-remember{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.center-area .left-area .field-area input{
+    padding: 8px 10px;
+    /* border: 1px solid #ddd; */
+    border-bottom: 2px solid #ddd;
+    /* border-radius: 5px; */
+    outline: none;
+    font-size: 15px;
+
+}
+.center-area .left-area .field-area label{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+}
+.center-area .left-area .action-btn{
+    background: #3183f5;
+    padding: 7px ;
+    width: 100%;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}

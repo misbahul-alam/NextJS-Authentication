@@ -3,7 +3,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 
 const roboto = Roboto({
-  weight: ["400", "700"],
+  weight: ["400","500", "700"],
   style: ["normal", "italic"],
   subsets: ["latin"],
   display: "swap",
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <main className="bg-blue-50 min-h-screen min-w-full flex items-center justify-center px-[5%]">{children}</main>
+        <main className="bg-green-500 min-h-screen min-w-full flex items-center justify-center px-[5%]">{children}</main>
       </body>
     </html>
   );

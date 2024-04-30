@@ -18,6 +18,14 @@ export default function page() {
             <label htmlFor="email">Email Address</label>
             <input type="email" id="email" placeholder="Email Address"/>
           </div>
+          <div className="field-area">
+            <label htmlFor="email">Email Address</label>
+            <input type="email" id="email" placeholder="Email Address"/>
+          </div>
+          <div className="field-area">
+            <label htmlFor="email">Email Address</label>
+            <input type="email" id="email" placeholder="Email Address"/>
+          </div>
           <div className="field-area-remember">
             <input type="checkbox" id="remember"/>
             <label htmlFor="remember">Remember me</label>
@@ -25,7 +33,7 @@ export default function page() {
           <button type="submit" className="action-btn">Login</button>
         </form>
         <div className="already">
-          <p>I have an account, </p><Link href={"/register"}>Register</Link>
+          <p>I have an account, </p><Link href={"/login"}>Login</Link>
         </div>
       </div>
       <div>
