@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <main className="bg-green-500 min-h-screen min-w-full flex items-center justify-center px-[5%]">{children}</main>
+        <main className="bg-gray-100 min-h-screen min-w-full flex items-center justify-center px-[5%]">{children}</main>
       </body>
     </html>
   );
